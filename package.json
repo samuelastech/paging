@@ -1,0 +1,36 @@
+{
+  "name": "paging",
+  "version": "1.0.0",
+  "description": "API for paging in MongoDB",
+  "main": "src/bin/www.js",
+  "scripts": {
+    "dev": "node --watch src/bin/www.js",
+    "test": "jest --watchAll"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelastech/paging.git"
+  },
+  "keywords": [
+    "paging",
+    "pagination",
+    "mongodb"
+  ],
+  "author": "Samuel A. Souza <samuel.araujo.souza@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelastech/paging/issues"
+  },
+  "homepage": "https://github.com/samuelastech/paging#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "sinon": "^15.0.2",
+    "supertest": "^6.3.3"
+  }
+}
